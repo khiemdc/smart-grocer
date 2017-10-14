@@ -27,9 +27,9 @@ const About = () =>
      <br/>
       <Row>
         <Col size="md-12">
-          <p className="text-center">
+          <h5 className="text-center">
             We all know going grocery shopping is a hassle. Even more so when you're squinting at the list you scribbled down on your way out the door! And it's all the same old recipes too. Well now SmartGrocer is here to help you break out of your rut without breaking the bank. 
-          </p>
+          </h5>
          
          
         </Col>
