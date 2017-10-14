@@ -13,20 +13,9 @@ const Navbar = props =>
         </Link>
       </div>
       <ul className="nav navbar-nav">
-          <li className="align-right">
-        <Google/>
-        </li>
-        <li
-          className={
-            window.location.pathname === "/" ||
-            window.location.pathname === "/home"
-              ? "active"
-              : ""
-          }
-        >
-          <Link to="/">Home</Link>
-        </li>
-        <li
+           
+
+        <li 
           className={window.location.pathname === "/recipes" ? "active" : ""}
         >
           <Link to="/recipes">Recipes</Link>
@@ -34,9 +23,11 @@ const Navbar = props =>
         <li className={window.location.pathname === "/plan" ? "active" : ""}>
           <Link to="/plan">List</Link>
         </li>
-      
-      </ul>
+    </ul>
+      <li className="navbar-right">
+         <Google/>
+        </li>
     </div>
-  </nav>;
+  </nav>
 
 export default Navbar;
